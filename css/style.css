@@ -77,6 +77,12 @@ p{
 .padding-bottom{
     padding-bottom: 20px;
 }
+.padding-top{
+    padding-top: 20px;
+}
+.medium-padding-top{
+    padding-top: 40px;
+}
 .max-padding-bottom{
     padding-bottom: 40px;
 }
@@ -91,6 +97,12 @@ p{
 }
 .text-violet{
     color: var(--color-primary-color);
+}
+.opacity{
+    opacity: 60%;
+}
+.bg-violet{
+    background-color: var(--color-primary-color);
 }
 /* nav bar */
 nav{
@@ -167,4 +179,28 @@ nav i{
     object-fit: cover;
     margin: 0 auto;
 }
+
+/* benefits */
+#benefits{
+    background-color: var(--color-primary-color);
+}
+#benefits h2{
+    font-size: 2.5rem;
+}
+.benefit h2{
+    font-size: 2.8rem;
+}
+.benefit{
+    background-color: var(--color-light-color);
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.benefit a{
+    font-size: 1.2rem;
+}
+.benefit p{
+    font-size: 1rem;
+}
+
+
 
