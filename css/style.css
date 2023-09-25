@@ -18,3 +18,20 @@ body{
     background-color: var(--color-light-color);
     color: var(--color-text);
 }
+.debug{
+    border: 1px solid black;
+}
+/* general */
+.container{
+    padding: 20px;
+}
+.text-white{
+    color: var(--color-light-color);
+}
+.d-flex{
+    
+}
+/* nav bar */
+nav{
+    background-color: var(--color-secondary-color);
+}
