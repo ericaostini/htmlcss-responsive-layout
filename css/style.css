@@ -89,6 +89,9 @@ p{
 .text-center{
     text-align: center;
 }
+.text-violet{
+    color: var(--color-primary-color);
+}
 /* nav bar */
 nav{
     background-color: var(--color-secondary-color);
@@ -141,5 +144,27 @@ nav i{
 .card-planning{
     background-color: var(--color-light-color);
     padding: 20px;
+}
+
+/* testimonials */
+#testimonials h4{
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+#testimonials p{
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+.card-testimonials{
+    background-color: var(--color-primary-color);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.card-testimonials img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 auto;
 }
 
