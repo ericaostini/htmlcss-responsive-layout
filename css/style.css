@@ -254,3 +254,15 @@ nav i{
     color: var(--color-light-color);
 }
 
+/* footer */
+footer{
+    background-color: var(--color-dark-color);
+    color: var(--color-light-color);
+}
+footer p{
+    font-size: 1rem;
+}
+footer a{
+    color: var(--color-primary-color);
+    text-decoration: underline;
+}
