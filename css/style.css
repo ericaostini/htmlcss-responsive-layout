@@ -148,7 +148,14 @@ nav i{
     border-radius: 80%;
     padding: 15px 20px;
 }
-
+.bt-white{
+    padding: 20px 60px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 40px;
+    background-color: var(--color-light-color);
+    font-size: 1.2rem;
+}
 /* planning */
 #planning{
     background-color: var(--color-primary-color);
@@ -224,4 +231,26 @@ nav i{
     font-weight: 700;
 }
 
+/* get started */
+#get-started{
+    background-color: var(--color-primary-color);
+}
+#get-started h4{
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+#get-started h3{
+    font-size: 2rem;
+}
+#get-started h2{
+    font-size: 4rem;
+    color: var(--color-contrast-color);
+}
+.copiright{
+    font-size: 1rem;
+}
+.copiright a{
+    text-decoration: underline;
+    color: var(--color-light-color);
+}
 
