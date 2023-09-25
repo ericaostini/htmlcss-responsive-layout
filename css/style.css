@@ -68,6 +68,9 @@ p{
 .border-radius{
     border-radius: 20px;
 }
+.medium-border-radius{
+    border-radius: 50px;
+}
 .padding-bottom{
     padding-bottom: 20px;
 }
@@ -103,6 +106,7 @@ nav i{
     color: var(--color-secondary-color);
     font-size: 5rem;
 }
+
 /* button */
 .button{
     width: 80%;
@@ -114,5 +118,14 @@ nav i{
 .bt-blue{
     background-color: var(--color-secondary-color);
     font-size: 1.3rem;
+}
+
+/* planning */
+#planning{
+    background-color: var(--color-primary-color);
+}
+.card-planning{
+    background-color: var(--color-light-color);
+    padding: 20px;
 }
 
