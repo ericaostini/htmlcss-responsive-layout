@@ -23,15 +23,33 @@ body{
 }
 /* general */
 .container{
-    padding: 20px;
+    padding: 30px;
 }
 .text-white{
     color: var(--color-light-color);
 }
 .d-flex{
-    
+    display: flex;
+    flex-flow: row wrap;
+}
+.align-center{
+    align-items: center;
+    align-content: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+img{
+    display: block;
+    width: 100%;
 }
 /* nav bar */
 nav{
     background-color: var(--color-secondary-color);
+}
+.nav-img{
+    width: 20%;
+}
+nav i{
+    font-size: 2rem;
 }
