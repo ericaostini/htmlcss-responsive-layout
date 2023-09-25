@@ -130,7 +130,9 @@ nav i{
     color: var(--color-secondary-color);
     font-size: 5rem;
 }
-
+.card{
+    height: 100%;
+}
 /* button */
 .button{
     width: 80%;
@@ -184,6 +186,9 @@ nav i{
     width: 200px;
     height: 200px;
     object-fit: cover;
+    margin: 0 auto;
+}
+.img{
     margin: 0 auto;
 }
 
@@ -265,4 +270,49 @@ footer p{
 footer a{
     color: var(--color-primary-color);
     text-decoration: underline;
+}
+
+/* media query */
+@media screen and (min-width: 576px) {
+    .d-flex{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .space-between{
+        justify-content: space-between;
+    }
+    .justify-evenly{
+        justify-content: space-evenly;
+    };
+    .stretch{
+        align-items: stretch;
+    }
+    #intro .col{
+        width: calc(100%/3);
+    }
+    #intro .col:first-child{
+        width: calc((100%/3) * 2);
+    }
+    .margin{
+        margin-right: 20px;
+    }
+    .min-margin{
+        margin-right: 5px;
+    }
+    .benefit{
+        width: 45%;
+        margin-right: 5px;
+    }
+    .text-width, .text-about-us{
+        width: 60%;
+    }
+    .img{
+        margin: 0;
+    }
+    .img-about-us{
+        width: 30%;
+    }
+    .bt-violet{
+        width: 20%;
+    }
 }
