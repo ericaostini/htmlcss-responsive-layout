@@ -46,6 +46,27 @@ img{
 a{
     text-decoration: none;
 }
+.padding-sx-dx{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.padding-top-bottom{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h3{
+    padding: 20px;
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.1rem;
+}
+.border-radius{
+    border-radius: 20px;
+}
+.padding-bottom{
+    padding-bottom: 20px;
+}
 /* nav bar */
 nav{
     background-color: var(--color-secondary-color);
@@ -56,3 +77,28 @@ nav{
 nav i{
     font-size: 2rem;
 }
+
+/* intro */
+.card{
+    background-color: var(--color-bg-card);
+}
+/* button */
+.button{
+    width: 80%;
+    border-radius: 20px;
+    padding: 5px 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+.bt-blue{
+    background-color: var(--color-secondary-color);
+    font-size: 1.3rem;
+}
+.card img{
+    position: relative;
+    top: 10px;
+}
+#intro h3{
+    color: var(--color-secondary-color);
+}
+
