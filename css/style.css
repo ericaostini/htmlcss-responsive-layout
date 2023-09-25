@@ -23,7 +23,7 @@ body{
 }
 /* general */
 .container{
-    padding: 30px;
+    padding: 50px;
 }
 .text-white{
     color: var(--color-light-color);
@@ -62,6 +62,9 @@ h3{
     padding: 20px;
     font-size: 1.5rem;
 }
+h2{
+    font-size: 2rem;
+}
 p{
     font-size: 1.1rem;
 }
@@ -73,6 +76,12 @@ p{
 }
 .padding-bottom{
     padding-bottom: 20px;
+}
+.max-padding-bottom{
+    padding-bottom: 40px;
+}
+.max-padding-top{
+    padding-top: 80px;
 }
 .col{
     padding-top: 20px;
@@ -118,6 +127,11 @@ nav i{
 .bt-blue{
     background-color: var(--color-secondary-color);
     font-size: 1.3rem;
+}
+.bt-violet{
+    background-color: var(--color-primary-color);
+    border-radius: 80%;
+    padding: 15px 20px;
 }
 
 /* planning */
