@@ -202,5 +202,26 @@ nav i{
     font-size: 1rem;
 }
 
+/* about us */
+#about-us h2{
+    font-size: 2.8rem;
+}
+#about-us{
+    line-height: 40px;
+}
+.man img{
+    width: 60%;
+    border-radius: 50%;
+}
+.man i{
+    font-size: 4rem;
+    position: relative;
+    top: 0;
+    right: 50px;
+}
+#about-us .declaration{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
 
 
