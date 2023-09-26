@@ -328,6 +328,7 @@ footer a{
     .container{
         max-width: 1200px;
         margin: 0 auto;
+        width: 80%;
     }
     header{
         background-color: var(--color-secondary-color);
@@ -339,9 +340,15 @@ footer a{
     #intro .col:first-child img{
         height: 300px;
     }
-    #planning{
+    .flex-planning{
         display: flex;
         justify-content: center;
+        align-items: flex-end;
+        align-content: flex-end;
+        width: 65%;
+    }
+    .text-planning p{
+        padding-right:50px;
     }
 
 
