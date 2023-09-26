@@ -350,6 +350,9 @@ footer a{
     .text-planning p{
         padding-right:50px;
     }
-
+    .benefit{
+        width: 30%;
+        margin-right: 5px;
+    }
 
 }
