@@ -108,9 +108,15 @@ ul li{
     list-style: none;
     padding: 10px;
 }
+.text-black{
+    color: var(--color-dark-color);
+}
 /* nav bar */
 nav{
     background-color: var(--color-secondary-color);
+}
+.nav-container{
+    padding: 40px;
 }
 .nav-img{
     width: 100px;
