@@ -104,6 +104,10 @@ p{
 .bg-violet{
     background-color: var(--color-primary-color);
 }
+ul li{
+    list-style: none;
+    padding: 10px;
+}
 /* nav bar */
 nav{
     background-color: var(--color-secondary-color);
@@ -114,7 +118,9 @@ nav{
 nav i{
     font-size: 2rem;
 }
-
+nav li{
+    display: none;
+}
 /* intro */
 .card{
     background-color: var(--color-bg-card);
@@ -322,16 +328,21 @@ footer a{
 }
 
 @media screen and (min-width:768px) {
-    
+    nav .fa-solid{
+        display: none;
+    }
+    nav li{
+        display: block;
+    }
+    .nav-flex{
+        display: flex;
+    }
 }
 @media screen and (min-width: 1200px) {
     .container{
         max-width: 1200px;
         margin: 0 auto;
         width: 80%;
-    }
-    header{
-        background-color: var(--color-secondary-color);
     }
     #intro .col:first-child .card{
         display: flex;
