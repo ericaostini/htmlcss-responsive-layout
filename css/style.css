@@ -311,8 +311,38 @@ footer a{
     }
     .img-about-us{
         width: 30%;
+        font-size: 0.6rem;
     }
-    .bt-violet{
-        width: 20%;
+    .man i{
+        font-size: 3.5rem;
+        position: relative;
+        top: 0;
+        right: 35px;
     }
+}
+
+@media screen and (min-width:768px) {
+    
+}
+@media screen and (min-width: 1200px) {
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    header{
+        background-color: var(--color-secondary-color);
+    }
+    #intro .col:first-child .card{
+        display: flex;
+        align-items: flex-start;
+    }
+    #intro .col:first-child img{
+        height: 300px;
+    }
+    #planning{
+        display: flex;
+        justify-content: center;
+    }
+
+
 }
